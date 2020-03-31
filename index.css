@@ -1,0 +1,169 @@
+
+
+a, p 
+{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+    list-style: none; 
+}
+
+ 
+ul li 
+{
+    display: table-cell; 
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+
+
+#page
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+	#header
+{
+	display: flex;
+	justify-content: flex-end;
+	 margin: 0 20px 0 10px;
+}
+
+
+	#nav
+{
+    display: flex;
+    justify-content: right;
+    
+}
+#gmail 
+{
+    align-self: center;
+    margin: 0 20px 0 10px;
+}
+
+#image 
+{
+    margin-right: 20px;
+}
+
+#menu 
+{
+    margin-right: 20px;
+}
+
+#sign-in 
+{
+    align-self: center;
+    background-color: #4683ea;
+    height: 30px;
+    width: 95px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+}
+
+
+
+
+
+#main
+{
+	display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    flex-direction: column;
+}
+
+
+#search 
+{
+    grid-area: search;
+    height: 25px;
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 30px;
+}
+
+#search:focus 
+{
+    box-shadow: 1px 1px 5px grey;
+}
+
+#search:hover 
+{
+    box-shadow: 1px 1px 5px grey;
+}
+
+#button 
+{
+    display: flexbox;
+    grid-area: flexbox;
+    justify-self: center;
+    align-self: center;
+}
+
+#search-button 
+{
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    margin-right: 25px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+
+#chance-button 
+{
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+
+#search-button:hover 
+{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+#chance-button:hover 
+{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+
+
+
+
+#pays{
+	background-color: #F2F2F2;
+}
+
+
+
+#footer
+	{
+		background-color: #F2F2F2;
+		display: flex;
+	  	flex-wrap: wrap;	
+	 
+
+	}
+
+	
